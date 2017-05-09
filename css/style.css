@@ -1,0 +1,140 @@
+body {
+    
+    padding: 0; 
+    margin: 0; 
+    font-family: "Georgia", serif; 
+    background-color: #152A55; 
+    
+}
+
+.project-container {
+    
+    width: 50%;  
+    margin: auto;
+    color: #D4996A; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    text-align: center;
+    font-size: 25px; 
+}
+
+.search-input {
+    
+    padding: 8px 8px; 
+    border-radius: 15px; 
+    font-size: 30px;
+    width: 60%; 
+    color: #fff; 
+    margin-right: 5px; 
+    margin-top: 30px; 
+    border: 2px solid #804415; 
+    background-color: #152A55;
+    font-family: "Georgia", serif; 
+}
+
+.search-input:focus {
+    
+    outline: none; 
+}
+
+/*change color of the placeholder*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b4b9c1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #b4b9c1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #b4b9c1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #b4b9c1;
+}
+
+/* change the search button styles */
+
+.fa {
+    
+   position: relative;
+    top: 8px; 
+    padding-right: 5px; 
+   
+}
+
+.fa:hover {
+    
+    cursor: pointer; 
+}
+
+/*CSS for the results section*/
+
+.results-container {
+    
+    width: 70%; 
+    margin: auto; 
+}
+
+.result-item h3 {
+    
+    margin: 0; 
+    padding-bottom: 15px;  
+    font-size: 120%; 
+}
+
+.result-item p {
+    
+    margin: 0; 
+    font-size: 20px; 
+    line-height: 24px; 
+    
+}
+
+.result-item {
+    
+    background-color: lightgray; 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+     
+}
+
+.result-item:hover {
+    
+    cursor: pointer; 
+}
+
+.result-item a,
+.result-item a:visited {
+    
+    text-decoration: none;
+    color: #000; 
+}
+
+/*media queries - medium to small screen*/
+
+@media only screen and (max-width: 768px) {
+    
+    .results-container {
+        
+        width: 90%; 
+    }
+    
+    .project-container {
+        
+        width: 90%; 
+        font-size: 20px; 
+    }
+    
+    .search-input {
+        
+        width: 90%; 
+    }
+    
+    .result-item p {
+        
+        font-size: 18px; 
+    }
+}
+
+
